@@ -9,7 +9,7 @@ public class WhileLoop {
 		int a = scan.nextInt();
 		while(a<20){
 			a++;
-			System.err.println("Aishwari is a good girl");
+			System.out.println("Aishwari is a good girl");
 			System.out.println("she is great");
 		}
 		
