@@ -23,16 +23,16 @@ public class FacebookRegistration {
 	}
 	@Before
 	public void testStart(){
-		System.out.println("Before");	
+		System.out.println("test start");	
 	}
 	@After
 	public  void testFinish(){
-		System.out.println("After");
+		System.out.println("test finish");
 		
 	}
 	@AfterClass
-	public static void browserClass(){
-		System.out.println("AfterClass");
+	public static void browserClose(){
+		System.out.println("browser close");
 	}
 	@BeforeClass
 	public static void openBrowser(){
