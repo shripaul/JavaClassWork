@@ -1,12 +1,14 @@
 package com.test;
 
 import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
-import com.thoughtworks.selenium.DefaultSelenium;
+
 
 public class BaseClass { 
-	
-	DefaultSelenium selenium = new DefaultSelenium("localhost",5555,"*firefox, http://www.facebook.com");
+	WebDriver driver = new FirefoxDriver();
+
 	
 	@Before
 public void openBrowser(){
